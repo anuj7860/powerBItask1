@@ -1,34 +1,42 @@
-# powerBItask1
+# Sales dashboard year 2022
 This is a Power BI report with three tables: State_list, Sales Data, and Supervisor.
 
-State_list has two columns:
+#sales dashboard
+Data Tables:
 
-State
-State_Code
-Sales Data has seven columns:
+State_list: This table holds information about different states, likely with fields like:
+State: Full name of the state (e.g., California, Texas)
+State_Code: Abbreviation or code (e.g., CA, TX)
+Sales_Data: This table is likely the core data table. It seems to hold detailed sales information, potentially including fields like:
+Assigned Supervisor: The person responsible for the sales.
+Brand: The product or brand being sold.
+Category: The category of the product.
+Cost: Price of the item sold.
+Customer_Name: The buyer's name.
+Order_Date: The date of the sale.
+Order_Number: A unique identifier for each sales transaction.
+Product: The specific product sold.
+Quantity: Number of items sold.
+Supervisor: This table stores information about the sales supervisors, with fields like:
+Image_URL: Link to a picture of the supervisor.
+Supervisor: Name of the supervisor.
 
-Assigned Supervisor
-Brand
-Category
-Cost
-Customer_Name
-Order Date
-Order_Number
-Product
-Quantity
-Supervisor has two columns:
+#Relationships:
 
-Image_URL
-Supervisor
-The tables are linked together with a one-to-many relationship. State_list has a one-to-many relationship with Sales Data, meaning each state can have multiple sales records. Sales Data has a one-to-many relationship with Supervisor, meaning each sales record can be assigned to only one supervisor, but a supervisor can be assigned to multiple sales records.
+State_list to Sales_Data: It seems there's a one-to-many relationship here, meaning one state can have multiple sales records associated with it. This suggests the sales data might be grouped by state.
+Sales_Data to Supervisor: A one-to-one relationship exists, meaning each sales record is tied to a specific supervisor.
+Insights:
 
-This report appears to be designed to track sales data by state and by assigned supervisor. It can be used to answer questions such as:
+Sales by State: The model allows analyzing sales data by state. You could use this to see which states have the highest sales, or how sales trends vary geographically.
+Supervisor Performance: You can track the performance of individual supervisors by looking at their associated sales data.
+Product Analysis: By grouping sales data by product, you can analyze product popularity, sales trends, and profitability.
 
-What is the total sales volume for each state?
-What is the sales performance of each supervisor?
-What is the average cost of products in each category?
-Without further context, it is difficult to create a full-fledged report based on this image. However, these are some potential insights that can be derived:
+#Report Recommendations:
 
-Sales Trends by State: The report can be used to analyze sales trends by state, such as identifying states with the highest sales volume or states with the most growth.
+State-wise Sales Report: A visual report showing sales figures (amount, quantity) for each state, perhaps a bar chart or map.
+Supervisor Dashboard: A dashboard to visualize individual supervisor performance with metrics like total sales, average order value, and key performance indicators (KPIs).
+Product Performance Analysis: A report to identify top-selling products, product categories, and sales trends.
 Supervisor Performance: The report can be used to track supervisor performance, such as identifying supervisors with the highest sales volume or supervisors with the highest customer satisfaction scores.
 Product Analysis: The report can be used to analyze product sales data, such as identifying the most popular products or products with the highest profit margins.
+
+#dashboard looks : 
