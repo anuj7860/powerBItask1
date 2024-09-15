@@ -1,7 +1,7 @@
 # Sales dashboard year 2022
 This is a Power BI report with three tables: State_list, Sales Data, and Supervisor.
 
-#sales dashboard
+# sales dashboard
 Data Tables:
 
 State_list: This table holds information about different states, likely with fields like:
@@ -21,7 +21,7 @@ Supervisor: This table stores information about the sales supervisors, with fiel
 Image_URL: Link to a picture of the supervisor.
 Supervisor: Name of the supervisor.
 
-#Relationships:
+# Relationships:
 
 State_list to Sales_Data: It seems there's a one-to-many relationship here, meaning one state can have multiple sales records associated with it. This suggests the sales data might be grouped by state.
 Sales_Data to Supervisor: A one-to-one relationship exists, meaning each sales record is tied to a specific supervisor.
@@ -31,7 +31,7 @@ Sales by State: The model allows analyzing sales data by state. You could use th
 Supervisor Performance: You can track the performance of individual supervisors by looking at their associated sales data.
 Product Analysis: By grouping sales data by product, you can analyze product popularity, sales trends, and profitability.
 
-#Report Recommendations:
+# Report Recommendations:
 
 State-wise Sales Report: A visual report showing sales figures (amount, quantity) for each state, perhaps a bar chart or map.
 Supervisor Dashboard: A dashboard to visualize individual supervisor performance with metrics like total sales, average order value, and key performance indicators (KPIs).
@@ -39,4 +39,12 @@ Product Performance Analysis: A report to identify top-selling products, product
 Supervisor Performance: The report can be used to track supervisor performance, such as identifying supervisors with the highest sales volume or supervisors with the highest customer satisfaction scores.
 Product Analysis: The report can be used to analyze product sales data, such as identifying the most popular products or products with the highest profit margins.
 
-#dashboard looks : 
+# dashboard looks : 
+
+![Screenshot 2024-09-14 132105](https://github.com/user-attachments/assets/867d79e2-0d9b-4e7c-aeea-7b9ddc8d4064)
+
+![Screenshot 2024-09-14 132034](https://github.com/user-attachments/assets/a3ce036d-d27c-4722-9bc6-dafd5191051d)
+
+# working
+
+
