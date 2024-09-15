@@ -43,6 +43,11 @@ Product Analysis: The report can be used to analyze product sales data, such as 
 
 ![Screenshot 2024-09-14 132105](https://github.com/user-attachments/assets/867d79e2-0d9b-4e7c-aeea-7b9ddc8d4064)
 
+
+# Working
+
+https://www.linkedin.com/posts/anuj-yadav-3477162b2_project-1-practice-power-bi-hii-my-connections-activity-7168178515387908096-3x0R?utm_source=share&utm_medium=member_desktop
+
 ![Screenshot 2024-09-14 132034](https://github.com/user-attachments/assets/a3ce036d-d27c-4722-9bc6-dafd5191051d)
 
 # working
